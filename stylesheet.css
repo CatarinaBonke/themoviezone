@@ -1,0 +1,163 @@
+body{
+    background: black;
+}
+.navbar{
+    background-color: black;
+}
+a:hover{
+    background-color: darkgrey;
+}
+
+.hovedtekst-forside{
+    color: antiquewhite;
+    font-size: 2em;
+    margin: 15px;
+    padding: 15px;
+}
+.forside-tekst{
+    font-size: px;
+}
+
+.btn{
+    background-color: antiquewhite;
+    color: black;
+}
+
+.card-body, .collapse-row{
+    background-color: rgba(5, 67, 122, 0.653);
+
+}
+.collapse-row{
+    border-radius: 10px;
+    gap: px;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+.btn, .btn-primary{
+  background-color: rgba(5, 67, 122, 0.653);  
+  border-color: rgba(5, 67, 122, 0.653);
+}
+.card, .card-body{
+    color: antiquewhite;
+
+}
+
+
+
+.footer{
+    background-color: black;
+    height: 4em;
+    color: antiquewhite;
+}
+
+.footer ul{
+    list-style: none;
+}
+
+
+
+/* Underside */
+.underside-billede {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+
+  .d-inline-flex, .gap-1{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .btn, .btn-primary{
+    color: antiquewhite;
+  }
+  
+  .top-left {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    font-size: 2em;
+    font-family:'Courier New', Courier, monospace;
+  }
+  .forside-tekst {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    font-size: 1em;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+
+  .collapse{
+    width: 75%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .collapse-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    border-radius: 3%;
+  }
+
+  .column-text{
+    color: antiquewhite;
+  }
+
+
+
+  @media only screen and (min-width: 600px) {
+    .top-left {
+        position: absolute;
+        top: 15px;
+        left: 15px;
+        font-size: 2em;
+      }
+      .d-inline-flex, .gap-1{
+        padding-left: 50px;
+      }
+      .forside-tekst { 
+        font-size: 2em;
+      }
+  }
+
+
+  @media only screen and (min-width: 800px) {
+    .top-left {
+        position: absolute;
+        top: 15px;
+        left: 35px;
+        font-size: 4em;
+      }
+      #collapseExample{
+        width: 92%;
+      }
+      .d-inline-flex, .gap-1{
+        padding-left: 20px;
+      }
+      .forside-tekst { 
+        font-size: 2.5em;
+      }
+     
+  }
+
+  @media only screen and (min-width: 1000px) {
+    .top-left {
+        position: absolute;
+        top: 15px;
+        left: 35px;
+        font-size: 6em;
+      }
+      #collapseExample{
+        width: 92%;
+      }
+      .d-inline-flex, .gap-1{
+        padding-left: 10px;
+      }
+      .forside-tekst { 
+        font-size: 3em;
+      }
+  }
